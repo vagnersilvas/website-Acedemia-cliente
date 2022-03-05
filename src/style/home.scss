@@ -1,0 +1,13 @@
+@import "./variables";
+@import "./mixins";
+
+.home{
+    @include container;
+    padding:0 1.8rem;
+    height: 85vh;
+    @include flexCenter(center, row);
+    h1 {
+        font-size: 1.6rem;
+        color: $primary-color;
+    }
+}
