@@ -1,11 +1,13 @@
-import { faFacebook, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import '../style/Header.scss'
+import '../style/Header.scss';
+
 export function Header() {
     return (
         <header className="container__header">
             <div className="container__header-logo">
+                <div className='image'></div>
                 <h2>Studio<span>Performace</span></h2>
             </div>
             <nav className="container__header-nav">
