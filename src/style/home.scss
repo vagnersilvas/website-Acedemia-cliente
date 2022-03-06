@@ -5,7 +5,17 @@
     @include container;
     padding:0 1.8rem;
     height: 85vh;
+    // background-image: url('../../src/img/bannerAcademia.jpg');
     @include flexCenter(center, row);
+    .image{
+        height: 100px;
+        width: 100px;
+        background-image: url('../../public/image/logo.png');
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: contain;
+        filter: drop-shadow(16px 16px 20px rgb(48, 47, 47));
+    }
     h1 {
         font-size: 1.6rem;
         color: $primary-color;
