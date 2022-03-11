@@ -1,0 +1,18 @@
+@import "./variables";
+@import "./mixins";
+
+.container__header-social__media {
+    ul {
+        list-style: none;
+        @include flexCenter(space-between, row);
+        li {
+            font-size: 1rem;
+            margin-left: 10px;
+            color: $text-color;
+            transition: 0.4s;
+            &:hover {
+                color: $third-color;
+            }
+        }
+    }
+}
