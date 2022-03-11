@@ -1,0 +1,23 @@
+@import "./variables";
+@import "./mixins";
+
+.container__header-nav {
+    ul {
+        list-style: none;
+        @include flexCenter(space-between, row);
+        li {
+            & + li {
+                margin-left: 8px;
+            }
+            a {
+                text-decoration: none;
+                color: $text-color;
+                font-size: 1rem;
+                transition: 0.4s;
+                &:hover {
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+}
