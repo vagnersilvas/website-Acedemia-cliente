@@ -1,0 +1,25 @@
+@import "./variables";
+@import "./mixins";
+
+.container__header-logo {
+    @include flexCenter(space-between, row);
+    .image {
+        height: 20px;
+        width: 20px;
+        margin: 0 0.5rem;
+        background-image: url("../../public/image/logo.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        filter: drop-shadow(16px 16px 20px rgb(48, 47, 47));
+    }
+    h2 {
+        font-style: italic;
+        color: $third-color;
+        font-size: 1.4rem;
+        span {
+            font-size: 1.4rem;
+            color: $secondary-color;
+        }
+    }
+}
