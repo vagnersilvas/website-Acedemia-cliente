@@ -12,9 +12,10 @@ body {
 
     .container__header {
         @include container;
-        @include flexCenter(space-between, row);
+        @include flexCenter(_, row);
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
 
-        flex-wrap: wrap;
         padding: 1.5rem 1rem;
         font-weight: lighter;
         letter-spacing: 0.11rem;
