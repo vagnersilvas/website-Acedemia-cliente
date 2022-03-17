@@ -3,7 +3,7 @@
     padding: 1.5rem 0;
     margin: 0 auto;
 }
-@mixin flexCenter($justifyContent, $diretionContent) {
+@mixin flexContainer($justifyContent, $diretionContent) {
     display: flex;
     align-items: center;
     justify-content: $justifyContent;

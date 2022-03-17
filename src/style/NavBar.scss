@@ -4,7 +4,7 @@
 .container__header-nav {
     ul {
         list-style: none;
-        @include flexCenter(center, row);
+        @include flexContainer(center, row);
         li {
             & + li {
                 margin-left: 1rem;
