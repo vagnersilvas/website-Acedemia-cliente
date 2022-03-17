@@ -7,7 +7,6 @@ export function Home(){
             <div className='image'>
 
             </div>
-            <h1>Home Page</h1>
         </div>
     );
 }

@@ -1,6 +1,6 @@
 import { Header } from './components/Header'
 import { Home } from './components/Home'
-import './style/app.scss'
+import './style/global.scss'
 
 export function App() {
     return (
