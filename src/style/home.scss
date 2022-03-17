@@ -3,19 +3,20 @@
 
 .home {
     @include container;
+    @include flexContainer(flex-start, row);
     padding: 0 1.8rem;
     height: 85vh;
-    @include flexCenter(flex-start, row);
+
     .image {
         height: 100%;
-        width: 100%;
-        // background-image: url("https://images.unsplash.com/photo-1606335545623-5d90040a4756?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+        width: 100vw;
         background-repeat: no-repeat;
         background-position: left;
-        background-size: contain;
+        background-size: cover;
+        background-clip: border-box;
     }
     h1 {
         font-size: 1.6rem;
         color: $primary-color;
-    }
+    }   
 }
