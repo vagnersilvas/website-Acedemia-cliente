@@ -1,9 +1,9 @@
-import { NavBar } from './NavBar';
-import { Logo } from './Logo';
-import { SocialMedia } from './SocialMedia';
+import { NavBar } from '../NavBar';
+import { Logo } from '../Logo';
+import { SocialMedia } from '../SocialMedia';
 
 
-import '../style/Header.scss';
+import './style.scss';
 
 export function Header() {
     return (

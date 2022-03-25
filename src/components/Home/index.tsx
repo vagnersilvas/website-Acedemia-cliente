@@ -1,5 +1,4 @@
-import '../style/Home.scss'
-
+import './style.scss';
 
 export function Home(){
     return (

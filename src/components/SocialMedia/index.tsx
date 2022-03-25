@@ -2,7 +2,7 @@
 import { faFacebook, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import '../style/SocialMedia.scss';
+import './style.scss';
 
 export function SocialMedia() {
     return (
