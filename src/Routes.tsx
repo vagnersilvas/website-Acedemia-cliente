@@ -1,10 +1,12 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes as Router, Route } from 'react-router-dom'
+import { About } from './components/About'
 import { Home } from './components/Home'
 
-export function RoutePath() {
+export function Routes() {
     return (
-        <Routes>
+        <Router>
             <Route path='/' element={<Home />}/>
-        </Routes>
+            <Route path='/about' element={<About />}/>
+        </Router>
     )
 }
